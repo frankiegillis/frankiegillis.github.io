@@ -1,2 +1,2 @@
 # Frankie Gillis
-I'm a maths undergraduate at St Andrews. 
+I'm a maths undergraduate at St Andrews. Outside of maths, I hate jogging.
