@@ -1,5 +1,3 @@
-Here you can say lots of fun things about your site.
+I'm a maths undergraduate at the University of St Andrews and 2025 Laidlaw Leadership and Research Scholar.
 
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+My 2025 summer research project was in Algebraic Graph Theory, and was related to graph reconstruction.
