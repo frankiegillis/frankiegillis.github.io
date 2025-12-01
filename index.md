@@ -8,6 +8,6 @@ Is2EdgeTransitive.
 
 For the things I've done, see my [CV](pdfs/CV.pdf) or my [LinkedIn](https://www.linkedin.com/in/frankie-gillis/).
 
-Otherwise, take a look at [this](pdfs/Pseudo_Similar_Graph.pdf) amazing graph. The vertices labelled $1$, $2$, $3$, and $4$ have pairwise-isomorphic
-vertex-deleted subgraphs, while at the same time no automorphism of the graph maps one vertex onto another. We call vertices
+Otherwise, take a look at [this](pdfs/Pseudo-Similar-Graph.pdf) amazing graph. The vertices labelled 1, 2, 3, and 4 have
+pairwise-isomorphic vertex-deleted subgraphs, but no automorphism of the graph maps one onto the other. We call vertices
 having this property (mutually) *pseudo-similar*.
