@@ -8,17 +8,20 @@ We will begin by establishing some basic facts about $\sigma$. Throughout, we wi
 
 **Claim 1** For any $a \in \mathbb{N}$, we have $a$ is prime if and only if $\sigma(a) = a + 1$.
 
-*Proof.* If $a \in \mathbb{N}$ is prime, then its positive divisors are precisely $1$ and $a$. Hence $\sigma(a) = a+1$. Conversely, if $a > 1$ is not prime, then $a$ has some positive divisor $d \ne 1, a$, so $\sigma(a) \ge 1 + a + d > 1 + a$. Finally $\sigma(1) = 1 \ne 2$. $\blacksquare$
+*Proof.* If $a \in \mathbb{N}$ is prime, then its positive divisors are precisely $1$ and $a$. Hence $\sigma(a) = a+1$. Conversely, if $a > 1$ is not prime, then $a$ has some positive divisor $1 < d < a$, so $\sigma(a) \ge 1 + a + d > 1 + a$. Finally $\sigma(1) = 1 \ne 2$. $\blacksquare$
 
 **Claim 2** For any $k \in \mathbb{N}$, we have $\sigma(2^k) = 2^{k+1} - 1$.
 
 *Proof.* The positive divisors of $2^k$ are precisely $1$, $2$, $2^2$, $\dots$, $2^{k - 1}$, $2^k$, so $sigma(2^k) = 1 + 2 + 2^2 + \dots + 2^k = 2^{k + 1} - 1$. $\blacksquare$.
 
+We are now in a position to approach **theorem 1**.
 
-We will first prove the converse, which was known to Euclid. Suppose that $a = (2^{p-1})(2^p - 1)$, where $2^p - 1$ is prime. Since $a$ is even, we may assume that $p \ge 2$. First, notice that $2^{p-1}$ and $2^p - 1$ are coprime: this is true since the only prime dividing $2^{p - 1}$ is $2$, meanwhile $2^p - 1$ is odd so has no factor of $2$. Therefore,
+*Proof of theorem 1.* We will first prove the converse, which was known to Euclid. Suppose that $a = (2^{p-1})(2^p - 1)$, where $2^p - 1$ is prime. Since $a$ is even, we may assume that $p \ge 2$. First, notice that $2^{p-1}$ and $2^p - 1$ are coprime: this is true since the only prime dividing $2^{p - 1}$ is $2$, meanwhile $2^p - 1$ is odd so has no factor of $2$. Therefore,
 
 $$ \sigma (a) = \sigma(2^{p-1}) \sigma(2^p - 1) = (2^p - 1)(2^p) = 2 \cdot (2^{p-1})(2^p - 1) = 2a $$
 
 so $a$ is perfect.
+
+The forward direction was not known to Euclid: it was proven by Euler in the 18th Century.
 
 
