@@ -12,7 +12,7 @@ We will begin by establishing some basic facts about $\sigma$. Throughout, we wi
 
 **Claim 2** For any $k \in \mathbb{N}$, we have $\sigma(2^k) = 2^{k+1} - 1$.
 
-*Proof.* The positive divisors of $2^k$ are precisely $1$, $2$, $2^2$, $\dots$, $2^{k - 1}$, $2^k$, so $sigma(2^k) = 1 + 2 + 2^2 + \dots + 2^k = 2^{k + 1} - 1$. $\blacksquare$.
+*Proof.* The positive divisors of $2^k$ are precisely $1$, $2$, $2^2$, $\dots$, $2^{k - 1}$, $2^k$, so $\sigma(2^k) = 1 + 2 + 2^2 + \dots + 2^k = 2^{k + 1} - 1$. $\blacksquare$
 
 We are now in a position to approach **theorem 1**.
 
@@ -22,6 +22,9 @@ $$ \sigma (a) = \sigma(2^{p-1}) \sigma(2^p - 1) = (2^p - 1)(2^p) = 2 \cdot (2^{p
 
 so $a$ is perfect.
 
-The forward direction was not known to Euclid: it was proven by Euler in the 18th Century.
+The forward direction was not known to Euclid: it was proven by Euler in the 18th Century. Suppose $a$ is an even perfect number. By the fundamental theorem of arithmetic, we can write $a = 2^k x$, where $k$ is a natural number and $x$ is an odd natural number. Notice that $2^k$ and $x$ are coprime, so $\sigma(a) = \sigma (2^k) \sigma(x) = (2^{k+1} - 1) \sigma(x)$. Moreover, $a$ is a perfect number by assumption, so $\sigma(a) = 2a = 2^{k+1}x$. It follows that $(2^{k+1}) \sigma(x) = 2^{k+1} x$, and hence
 
+$$\sigma(x) = 2^{k+1} \cdot \frac{x}{2^{k+1} - 1}.$$
+
+Let $y = \frac{x}{2^{k+1 - 1}}$.
 
