@@ -7,7 +7,8 @@ Let $a \in \mathbb{N}$. We denote the sum of the positive divisors of $a$ by $\s
 We will begin by establishing some basic facts about $\sigma$. Throughout, we will assume the multiplicative property of $\sigma$: if $a$ and $b$ are coprime, then $\sigma(ab) = \sigma(a) \sigma(b)$.
 
 **Claim 1** For any $a \in \mathbb{N}$, we have $a$ is prime if and only if $\sigma(a) = a + 1$.
-*Proof.* If $a \in \mathbb{N}$ is prime, then its positive divisors are precisely $1$ and $a$. Hence $\sigma(a) = a+1$. Conversely, if $a > 1$ is not prime, then $a$ has some positive divisor $d \ne 1, a$, so $\sigma(a) \ge 1 + a + d > 1 + a$. Finally $\sigma(1) = 1 \ne 2$. $\qed$
+
+*Proof.* If $a \in \mathbb{N}$ is prime, then its positive divisors are precisely $1$ and $a$. Hence $\sigma(a) = a+1$. Conversely, if $a > 1$ is not prime, then $a$ has some positive divisor $d \ne 1, a$, so $\sigma(a) \ge 1 + a + d > 1 + a$. Finally $\sigma(1) = 1 \ne 2$. $\blacksquare$
 
 
 
