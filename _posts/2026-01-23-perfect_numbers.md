@@ -23,7 +23,9 @@ $$ \sigma (a) = \sigma(2^{p-1}) \sigma(2^p - 1) = (2^p - 1)(2^p) = 2 \cdot (2^{p
 so $a$ is perfect.
 
 The forward direction was not known to Euclid: it was proven by Euler in the 18th Century. Suppose $a$ is an even perfect number. By the fundamental theorem of arithmetic, we can write $a = 2^k x$, where $k$ is a natural number and $x$ is an odd natural number. Notice that $2^k$ and $x$ are coprime, so $\sigma(a) = \sigma (2^k) \sigma(x) = (2^{k+1} - 1) \sigma(x)$. Moreover, $a$ is a perfect number by assumption, so $\sigma(a) = 2a = 2^{k+1}x$. It follows that $(2^{k+1}) \sigma(x) = 2^{k+1} x$, and hence $\sigma(x) = 2^{k+1} y$, where
-$$y = x / (2^{k+1} - 1).$$ 
+$$y = x / (2^{k+1} - 1).$$
 
+By rearranging this definition of $y$, we can obtain the equation $x = y (2^{k + 1} - 1) = 2^{k+1} y - y = \sigma(x) - y$, which leads us to $\sigma(x) = x + y$. We now argue that $y \mid x$. This is true by virtue of the fact that $x = y(2^{k+1} - 1)$. Moreover, $y < x$ because $2^{k + 1} - 1 > 1$. Suppose for a contradiction that $y > 1$. Then $\sigma(x) \ge 1 + y + x > x + y$, which gives the contradiction we wanted. It follows that $y = 1$, and so $\sigma(x) = x + 1$, therefore $x$ is prime by claim 1.
 
+From this, it follows that $a$ can be written in the form $(2^{p-1})(2^p - 1)$, where $2^p - 1$ is prime, as claimed. $\blacksquare$
 
