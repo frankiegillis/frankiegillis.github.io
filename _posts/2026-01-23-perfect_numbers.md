@@ -16,7 +16,7 @@ We will begin by establishing some basic facts about $\sigma$. Throughout, we wi
 
 We are now in a position to approach **Theorem 1**.
 
-*Proof of theorem 1.* We will first prove the converse, which was known to Euclid. Suppose that $a = (2^{p-1})(2^p - 1)$, where $2^p - 1$ is prime. Since $a$ is even, we may assume that $p \ge 2$. First, notice that $2^{p-1}$ and $2^p - 1$ are coprime: this is true since the only prime dividing $2^{p - 1}$ is $2$, meanwhile $2^p - 1$ is odd so has no factor of $2$. Therefore,
+*Proof of Theorem 1.* We will first prove the converse, which was known to Euclid. Suppose that $a = (2^{p-1})(2^p - 1)$, where $2^p - 1$ is prime. Since $a$ is even, we may assume that $p \ge 2$. First, notice that $2^{p-1}$ and $2^p - 1$ are coprime: this is true since the only prime dividing $2^{p - 1}$ is $2$, meanwhile $2^p - 1$ is odd so has no factor of $2$. Therefore,
 
 $$ \sigma (a) = \sigma(2^{p-1}) \sigma(2^p - 1) = (2^p - 1)(2^p) = 2 \cdot (2^{p-1})(2^p - 1) = 2a $$
 
