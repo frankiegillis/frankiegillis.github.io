@@ -14,7 +14,7 @@ We will begin by establishing some basic facts about $\sigma$. Throughout, we wi
 
 *Proof.* The positive divisors of $2^k$ are precisely $1$, $2$, $2^2$, $\dots$, $2^{k - 1}$, $2^k$, so $\sigma(2^k) = 1 + 2 + 2^2 + \dots + 2^k = 2^{k + 1} - 1$. $\blacksquare$
 
-We are now in a position to approach **theorem 1**.
+We are now in a position to approach **Theorem 1**.
 
 *Proof of theorem 1.* We will first prove the converse, which was known to Euclid. Suppose that $a = (2^{p-1})(2^p - 1)$, where $2^p - 1$ is prime. Since $a$ is even, we may assume that $p \ge 2$. First, notice that $2^{p-1}$ and $2^p - 1$ are coprime: this is true since the only prime dividing $2^{p - 1}$ is $2$, meanwhile $2^p - 1$ is odd so has no factor of $2$. Therefore,
 
@@ -26,7 +26,7 @@ The forward direction was not known to Euclid: it was proven by Euler in the 18t
 
 $$ y = \frac{x}{2^{k+1} - 1}. $$
 
-By rearranging this definition of $y$, we can obtain the equation $x = y (2^{k + 1} - 1) = 2^{k+1} y - y = \sigma(x) - y$, which leads us to $\sigma(x) = x + y$. We now argue that $y \mid x$. This is true by virtue of the fact that $x = y(2^{k+1} - 1)$. Moreover, $y < x$ because $2^{k + 1} - 1 > 1$. Suppose for a contradiction that $y > 1$. Then $\sigma(x) \ge 1 + y + x > x + y$, which gives the contradiction we wanted. It follows that $y = 1$, and so $\sigma(x) = x + 1$, therefore $x$ is prime by claim 1.
+By rearranging this definition of $y$, we can obtain the equation $x = y (2^{k + 1} - 1) = 2^{k+1} y - y = \sigma(x) - y$, which leads us to $\sigma(x) = x + y$. We now argue that $y \mid x$. This is true by virtue of the fact that $x = y(2^{k+1} - 1)$. Moreover, $y < x$ because $2^{k + 1} - 1 > 1$. Suppose for a contradiction that $y > 1$. Then $\sigma(x) \ge 1 + y + x > x + y$, which gives the contradiction we wanted. It follows that $y = 1$, and so $\sigma(x) = x + 1$, therefore $x$ is prime by Claim 1.
 
 From this, it follows that $a$ can be written in the form $(2^{p-1})(2^p - 1)$, where $2^p - 1$ is prime, as claimed. $\blacksquare$
 
