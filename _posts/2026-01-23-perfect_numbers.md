@@ -24,7 +24,7 @@ so $a$ is perfect.
 
 The forward direction was not known by Euclid: it was proven by Euler in the 18th Century. The proof I will give here uses similar elementary means to the converse direction.
 
-Suppose $a$ is an even perfect number. By the Fundamental Theorem of Arithmetic, we can write $a$ uniquely as $a = 2^k x$, for some natural number $k$ and odd number $x$. Notice that $2^k$ and $x$ are coprime, so $\sigma(a) = \sigma (2^k) \sigma(x) = (2^{k+1} - 1) \sigma(x)$ by the multiplicative propery of $\sigma$, and Claim 2. By assumption, $a$ is a perfect number, so $\sigma(a) = 2a = 2^{k+1} x$. It follows that
+Suppose $a$ is an even perfect number. By the Fundamental Theorem of Arithmetic, we can write $a$ uniquely as $a = 2^k x$, for some natural number $k$ and odd number $x$. Notice that $2^k$ and $x$ are coprime, so $\sigma(a) = \sigma (2^k) \sigma(x) = (2^{k+1} - 1) \sigma(x)$ by the multiplicative propery of $\sigma$, and using Claim 2. By assumption, $a$ is a perfect number, so $\sigma(a) = 2a = 2^{k+1} x$. It follows that
 
 $$ (2^{k+1} - 1) \sigma(x) = 2^{k+1} x,$$
 
