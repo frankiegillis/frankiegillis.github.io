@@ -36,5 +36,5 @@ By rearranging this definition of $y$, we can obtain the equation $x = y (2^{k +
 
 From this, it follows that $a$ can be written in the form $(2^{p-1})(2^p - 1)$, where $2^p - 1$ is prime, as claimed. $\blacksquare$
 
-Famously, not much is known about odd perfect numbers. It is not even know whether they exist. It is also not known whether there are infinitely many perfect numbers: by virtue of the Euclid-Euler theorem, this is equivalent to knowing whether there are infinitely many Mersenne primes.
+Famously, not much is known about odd perfect numbers. It is not even known whether they exist. It is also not known whether there are infinitely many perfect numbers: by virtue of the Euclid-Euler theorem, this is equivalent to knowing whether there are infinitely many Mersenne primes.
 
