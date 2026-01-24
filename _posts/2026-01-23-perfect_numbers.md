@@ -6,13 +6,23 @@ Let $a \in \mathbb{N}$. I denote the sum of the positive divisors of $a$ by $\si
 
 Throughout this post, I will assume the multiplicative property of $\sigma$: if $a$ and $b$ are coprime, then $\sigma(ab) = \sigma(a) \sigma(b)$. We begin by establishing a couple of basic facts about $\sigma$:
 
-**Claim 1** For any $a \in \mathbb{N}$, we have $a$ is prime if and only if $\sigma(a) = a + 1$.
+**Claim 1** For any $p \in \mathbb{N}$, we have $p$ is prime if and only if $\sigma(p) = p + 1$.
 
-*Proof.* If $a \in \mathbb{N}$ is prime, then its positive divisors are precisely $1$ and $a$. Hence $\sigma(a) = a+1$. Conversely, if $a > 1$ is not prime, then $a$ has some positive divisor $1 < d < a$, so $\sigma(a) \ge 1 + a + d > 1 + a$. Finally $\sigma(1) = 1 \ne 2$. $\blacksquare$
+*Proof.* If $p \in \mathbb{N}$ is prime, then the positive divisors of $p$ are precisely $1$ and $p$. It follows that $\sigma(p) = p + 1$. Conversely, if $p > 1$ is not prime, then $p$ has some positive divisor $1 < d < p$, so $\sigma(p) \ge 1 + p + d > 1 + p$. Finally $\sigma(1) = 1 \ne 1 + 1$, so we are done. $\blacksquare$
 
-**Claim 2** For any $k \in \mathbb{N}$, we have $\sigma(2^k) = 2^{k+1} - 1$.
+**Claim 2** For any prime $p$ and $k \in \mathbb{N}$, we have
 
-*Proof.* The positive divisors of $2^k$ are precisely $1$, $2$, $2^2$, $\dots$, $2^{k - 1}$, $2^k$, so $\sigma(2^k) = 1 + 2 + 2^2 + \dots + 2^k = 2^{k + 1} - 1$. $\blacksquare$
+\[ \sigma(p^k) = \frac{p^{k+1} - 1}{p - 1}.\]
+
+*Proof.* The set of positive divisors of the integer $p^k$ is precisely $\{ p^a \mid 0 \le k \le a \} = \{1, p, p^2, \dots, p^k\}$, so it follows that
+
+\[ sigma(p^k) = 1 + p + p^2 + \dots + p^k = \frac{p^{k+1} - 1}{p-1},\]
+
+as claimed. $\blacksquare$
+
+**Claim 3** For any coprime $a$, $b \in \mathbb{N}$, we have $\sigma(ab) = \sigma(a) \sigma(b)$; that is, $\sigma$ is a multiplicative function.
+
+*Proof.* 
 
 Having collected these facts, we are in a good position to approach the proof of **Theorem 1**.
 
