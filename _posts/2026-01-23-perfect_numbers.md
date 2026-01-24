@@ -26,21 +26,21 @@ as claimed. $\blacksquare$
 
 Hence if the divisors of $a$ are $\set{d_1, \dots, d_k}$ and the divisors of $b$ are $\set{e_1, \dots, e_l}$, then $\sigma(a) = d_1 + \cdots + d_k$ and $\sigma(b) = e_1 + \cdots + e_l$, and
 
-$$ \sigma(ab) = \sum_{1 \le i \le k} \sum_{i \le j \le l} d_i e_j $$
+$$ \sigma(ab) = \sum_{1 \le i \le k} \sum_{1 \le j \le l} d_i e_j $$
 
 which is precisely $\sigma(a) \sigma(b)$. $\blacksquare$
 
 Having collected these facts, we are in a good position to approach the proof of **Theorem 1**.
 
-*Proof of Theorem 1.* We will first prove the converse, which was known by Euclid. Suppose that $a = (2^{p-1})(2^p - 1)$, where $2^p - 1$ is prime. Since $a$ is even, we may assume that $p \ge 2$. First, notice that $2^{p-1}$ and $2^p - 1$ are coprime: this is true since the only prime dividing $2^{p - 1}$ is $2$, meanwhile $2^p - 1$ is odd so has no factor of $2$. Therefore,
+*Proof of Theorem 1.* We will first prove the converse, which was known by Euclid. We begin by supposing that $a = (2^{p-1})(2^p - 1)$, where $2^p - 1$ is prime. Since we want $a$ to be even, we may assume that $p \ge 2$. First, notice that $2^{p-1}$ and $2^p - 1$ are coprime: this is true since the only prime dividing $2^{p - 1}$ is $2$, meanwhile $2^p - 1$ is odd so has no factor of $2$. Therefore,
 
 $$ \sigma (a) = \sigma(2^{p-1}) \sigma(2^p - 1) = (2^p - 1)(2^p) = 2 \cdot (2^{p-1})(2^p - 1) = 2a $$
 
 so $a$ is perfect.
 
-The forward direction was not known by Euclid: it was proven by Euler in the 18th Century. The proof I will give here uses similar elementary means to the converse direction.
+The forward direction was not known by Euclid: it was proven by Euler in the 18th Century.
 
-Suppose $a$ is an even perfect number. By the Fundamental Theorem of Arithmetic, we can write $a$ uniquely as $a = 2^k x$, for some natural number $k$ and odd number $x$. Notice that $2^k$ and $x$ are coprime, so $\sigma(a) = \sigma (2^k) \sigma(x) = (2^{k+1} - 1) \sigma(x)$ by the multiplicative propery of $\sigma$, and using Claim 2. By assumption, $a$ is a perfect number, so $\sigma(a) = 2a = 2^{k+1} x$. It follows that
+We begin by assuming that $a$ is an even perfect number. By the Fundamental Theorem of Arithmetic, we can write $a$ uniquely as $a = 2^k x$, for some natural number $k$ and odd number $x$. Since $x$ is odd, $2^k$ and $x$ are coprime, so $\sigma(a) = \sigma (2^k) \sigma(x) = (2^{k+1} - 1) \sigma(x)$ by Claims 2 and 3. Also, we assumed $a$ was perfect, so $\sigma(a) = 2a = 2^{k+1} x$. It follows that
 
 $$ (2^{k+1} - 1) \sigma(x) = 2^{k+1} x,$$
 
