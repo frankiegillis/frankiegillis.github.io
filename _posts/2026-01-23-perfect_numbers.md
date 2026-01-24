@@ -4,7 +4,7 @@ Let $a \in \mathbb{N}$. I denote the sum of the positive divisors of $a$ by $\si
 
 **Theorem 1 (Euclid-Euler)** Let $a \in \mathbb{N}$ be even. Then $a$ is a perfect number if and only if $a$ can be written in the form $a = (2^{p-1}) (2^p - 1)$, where $2^p - 1$ is prime.
 
-Throughout this post, I will assume the multiplicative property of $\sigma$: if $a$ and $b$ are coprime, then $\sigma(ab) = \sigma(a) \sigma(b)$. We begin by establishing a couple of basic facts about $\sigma$:
+Throughout this post, I will assume the multiplicative property of $\sigma$: if $a$ and $b$ are coprime, then $\sigma(ab) = \sigma(a) \sigma(b)$. We begin by establishing a few basic facts about $\sigma$:
 
 **Claim 1** For any $p \in \mathbb{N}$, we have $p$ is prime if and only if $\sigma(p) = p + 1$.
 
