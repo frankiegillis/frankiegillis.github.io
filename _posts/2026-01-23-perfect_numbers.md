@@ -12,11 +12,11 @@ Throughout this post, I will assume the multiplicative property of $\sigma$: if 
 
 **Claim 2** For any prime $p$ and $k \in \mathbb{N}$, we have
 
-\[ \sigma(p^k) = \frac{p^{k+1} - 1}{p - 1}.\]
+$$ \sigma(p^k) = \frac{p^{k+1} - 1}{p - 1}.$$
 
-*Proof.* The set of positive divisors of the integer $p^k$ is precisely $\{ p^a \mid 0 \le k \le a \} = \{1, p, p^2, \dots, p^k\}$, so it follows that
+*Proof.* The set of positive divisors of the integer $p^k$ is precisely $\set{ p^a \mid 0 \le k \le a } = \{1, p, p^2, \dots, p^k\}$, so it follows that
 
-\[ sigma(p^k) = 1 + p + p^2 + \dots + p^k = \frac{p^{k+1} - 1}{p-1},\]
+$$ sigma(p^k) = 1 + p + p^2 + \dots + p^k = \frac{p^{k+1} - 1}{p-1},$$
 
 as claimed. $\blacksquare$
 
