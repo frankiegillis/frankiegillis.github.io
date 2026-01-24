@@ -22,7 +22,7 @@ as claimed. $\blacksquare$
 
 **Claim 3** For any coprime $a$, $b \in \mathbb{N}$, we have $\sigma(ab) = \sigma(a) \sigma(b)$; that is, $\sigma$ is a multiplicative function.
 
-*Proof.* 
+*Proof.* Let $a = p_1^{\alpha_1} p_2^{\alpha_2} \cdots p_n^{\alpha_n}$ be the prime factorisation of $a$, and let $b = q_1^{\beta_1} q_2^{\beta_2} \cdots q_m^{\beta_n}$ be the prime factorisation of $b$.
 
 Having collected these facts, we are in a good position to approach the proof of **Theorem 1**.
 
