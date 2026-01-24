@@ -14,7 +14,7 @@ Throughout this post, I will assume the multiplicative property of $\sigma$: if 
 
 $$ \sigma(p^k) = \frac{p^{k+1} - 1}{p - 1}.$$
 
-*Proof.* The set of positive divisors of the integer $p^k$ is precisely $\set{ p^a \mid 0 \le k \le a } = \{1, p, p^2, \dots, p^k\}$, so it follows that
+*Proof.* The set of positive divisors of the integer $p^k$ is precisely $\set{ p^a \mid 0 \le k \le a } = \set{1, p, p^2, \dots, p^k}$, so it follows that
 
 $$ sigma(p^k) = 1 + p + p^2 + \dots + p^k = \frac{p^{k+1} - 1}{p-1},$$
 
