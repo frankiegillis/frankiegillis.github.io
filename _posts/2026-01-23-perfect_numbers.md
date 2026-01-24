@@ -22,7 +22,7 @@ as claimed. $\blacksquare$
 
 **Claim 3** For any coprime $a$, $b \in \mathbb{N}$, we have $\sigma(ab) = \sigma(a) \sigma(b)$; that is, $\sigma$ is a multiplicative function.
 
-*Proof.* Let $a = p_1^{\alpha_1} p_2^{\alpha_2} \cdots p_n^{\alpha_n}$ be the prime factorisation of $a$, and let $b = q_1^{\beta_1} q_2^{\beta_2} \cdots q_m^{\beta_n}$ be the prime factorisation of $b$.
+*Proof.* Let $a = p_1^{\alpha_1} p_2^{\alpha_2} \cdots p_n^{\alpha_n}$ be the prime factorisation of $a$, and let $b = q_1^{\beta_1} q_2^{\beta_2} \cdots q_m^{\beta_n}$ be the prime factorisation of $b$. Since $a$ and $b$ are coprime, none of the $p_i$ and $q_i$ are equal. Every divisor of $a$ is of the form $p_1^{x_1} p_2^{x_2} \cdots p_n^{x_n}$, where $0 \le x_i \le \alpha_i$. A similar observation is true of $b$. Conversely, every divisor of $ab$ is of the form $p_1^{x_1} p_2^{x_2} \cdots p_n^{x_n} q_1^{y_1} q_2^{y_2} \cdots q_m^{y_m}$, where $0 \le x_i \le \alpha_i$ and $0 \le y_i \le \beta_i$. The limits on $x_i$ and $y_i$ are true because $a$ and $b$ share no prime factors, so the largest power of $p_i$ dividing $ab$ is equal to the largest power of $p_i$ dividing $a$, and similarly for $b$. By Uniqueness of Prime Factorisation, it follows that each divisor of $ab$ can be expressed uniquely as the product of a divsior of $a$ and a divisor of $b$; and moreover if $d_1$ divides $a$ and $d_2$ divides $b$, then $d_1d_2$ divides $ab$.
 
 Having collected these facts, we are in a good position to approach the proof of **Theorem 1**.
 
