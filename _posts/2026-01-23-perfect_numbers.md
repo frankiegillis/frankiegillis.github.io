@@ -22,7 +22,9 @@ as claimed. $\blacksquare$
 
 **Claim 3** For any coprime $a$, $b \in \mathbb{N}$, we have $\sigma(ab) = \sigma(a) \sigma(b)$; that is, $\sigma$ is a multiplicative function.
 
-*Proof.* Let $a = p_1^{\alpha_1} p_2^{\alpha_2} \cdots p_n^{\alpha_n}$ be the prime factorisation of $a$, and let $b = q_1^{\beta_1} q_2^{\beta_2} \cdots q_m^{\beta_n}$ be the prime factorisation of $b$. Since $a$ and $b$ are coprime, none of the $p_i$ and $q_i$ are equal. Every divisor of $a$ is of the form $p_1^{x_1} p_2^{x_2} \cdots p_n^{x_n}$, where $0 \le x_i \le \alpha_i$. A similar observation is true of $b$. Conversely, every divisor of $ab$ is of the form $p_1^{x_1} p_2^{x_2} \cdots p_n^{x_n} q_1^{y_1} q_2^{y_2} \cdots q_m^{y_m}$, where $0 \le x_i \le \alpha_i$ and $0 \le y_i \le \beta_i$. The limits on $x_i$ and $y_i$ are true because $a$ and $b$ share no prime factors, so the largest power of $p_i$ dividing $ab$ is equal to the largest power of $p_i$ dividing $a$, and similarly for $b$. By Uniqueness of Prime Factorisation, it follows that each divisor of $ab$ can be expressed uniquely as the product of a divsior of $a$ and a divisor of $b$; and conversely, if $d$ divides $a$ and $e$ divides $b$, then $de$ does indeed divide $ab$. This gives a natural bijective correspondence between divisors of $ab$, and products of a divisor of $a$ and a divisor of $b$.
+*Proof.* Let $a = p_1^{\alpha_1} p_2^{\alpha_2} \cdots p_n^{\alpha_n}$ be the prime factorisation of $a$, and let $b = q_1^{\beta_1} q_2^{\beta_2} \cdots q_m^{\beta_n}$ be the prime factorisation of $b$. Since $a$ and $b$ are coprime, none of the $p_i$ and $q_i$ are equal. Every divisor of $a$ is of the form $p_1^{x_1} p_2^{x_2} \cdots p_n^{x_n}$, where $0 \le x_i \le \alpha_i$. A similar observation is true of $b$. Conversely, every divisor of $ab$ is of the form $p_1^{x_1} p_2^{x_2} \cdots p_n^{x_n} q_1^{y_1} q_2^{y_2} \cdots q_m^{y_m}$, where $0 \le x_i \le \alpha_i$ and $0 \le y_i \le \beta_i$. The limits on $x_i$ and $y_i$ are true because $a$ and $b$ share no prime factors, so the largest power of $p_i$ dividing $ab$ is equal to the largest power of $p_i$ dividing $a$, and similarly for $b$.
+
+By Uniqueness of Prime Factorisation, it follows that each divisor of $ab$ can be expressed uniquely as the product of a divsior of $a$ and a divisor of $b$; and conversely, if $d$ divides $a$ and $e$ divides $b$, then $de$ does indeed divide $ab$. This gives a natural bijective correspondence between divisors of $ab$, and products of a divisor of $a$ and a divisor of $b$.
 
 Hence if the divisors of $a$ are $\set{d_1, \dots, d_k}$ and the divisors of $b$ are $\set{e_1, \dots, e_l}$, then $\sigma(a) = d_1 + \cdots + d_k$ and $\sigma(b) = e_1 + \cdots + e_l$, and
 
@@ -40,7 +42,9 @@ so $a$ is perfect.
 
 The forward direction was not known by Euclid: it was proven by Euler in the 18th Century.
 
-We begin by assuming that $a$ is an even perfect number. By the Fundamental Theorem of Arithmetic, we can write $a$ uniquely as $a = 2^k x$, for some natural number $k$ and odd number $x$. Since $x$ is odd, $2^k$ and $x$ are coprime, so $\sigma(a) = \sigma (2^k) \sigma(x) = (2^{k+1} - 1) \sigma(x)$ by Claims 2 and 3. Also, we assumed $a$ was perfect, so $\sigma(a) = 2a = 2^{k+1} x$. It follows that
+We begin by assuming that $a$ is an even perfect number. By the Fundamental Theorem of Arithmetic, we can write $a$ uniquely as $a = 2^k x$, for some natural number $k$ and odd number $x$. Since $x$ is odd, $2^k$ and $x$ are coprime, so $\sigma(a) = \sigma (2^k) \sigma(x) = (2^{k+1} - 1) \sigma(x)$ by Claims 2 and 3. Also, we assumed $a$ was perfect, so $\sigma(a) = 2a = 2^{k+1} x$.
+
+It follows that
 
 $$ (2^{k+1} - 1) \sigma(x) = 2^{k+1} x,$$
 
@@ -48,9 +52,9 @@ and so $\sigma(x) = 2^{k+1} y$, where
 
 $$ y = \frac{x}{2^{k+1} - 1}. $$
 
-By rearranging this definition of $y$, we can obtain the equation $x = y (2^{k + 1} - 1) = 2^{k+1} y - y = \sigma(x) - y$, which leads us to $\sigma(x) = x + y$. We now argue that $y \mid x$. This is true by virtue of the fact that $x = y(2^{k+1} - 1)$. Moreover, $y < x$ because $2^{k + 1} - 1 > 1$. Suppose for a contradiction that $y > 1$. Then $\sigma(x) \ge 1 + y + x > x + y$, which gives the contradiction we wanted. It follows that $y = 1$, and so $\sigma(x) = x + 1$, therefore $x$ is prime by Claim 1.
+By rearranging this definition of $y$, we can see that $x = y (2^{k + 1} - 1) = 2^{k+1} y - y = \sigma(x) - y$, which leads us to $\sigma(x) = x + y$. We now argue that $y$ is a divisor of $x$. This is true because we know from the previous line that $x = y (2^{k+1} - 1)$. Moreover, $y < x$ because $2^{k + 1} - 1 > 1$. Suppose for a contradiction that $y > 1$. Then $\sigma(x) \ge 1 + y + x > x + y$, which gives the contradiction we wanted. It follows that $y = 1$, and so $\sigma(x) = x + 1$, therefore $x$ is prime by Claim 1.
 
-From this, it follows that $a$ can be written in the form $(2^{p-1})(2^p - 1)$, where $2^p - 1$ is prime, as claimed. $\blacksquare$
+From this, it follows by setting $p = k - 1$ that $a$ can be written in the form $(2^{p-1})(2^p - 1)$, where $2^p - 1$ is prime, as claimed. $\blacksquare$
 
 Famously, not much is known about odd perfect numbers. It is not even known whether they exist. It is also not known whether there are infinitely many perfect numbers: by virtue of the Euclid-Euler theorem, this is equivalent to knowing whether there are infinitely many Mersenne primes.
 
