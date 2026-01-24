@@ -58,3 +58,8 @@ From this, it follows by setting $p = k - 1$ that $a$ can be written in the form
 
 Famously, not much is known about odd perfect numbers. It is not even known whether they exist. It is also not known whether there are infinitely many perfect numbers: by virtue of the Euclid-Euler theorem, this is equivalent to knowing whether there are infinitely many Mersenne primes.
 
+In general, $\sigma$ is a very interesting function to play around with, and has surprising links to many number theoretic properties. One can evem reformulate the Riemann Hypothesis in terms of $\sigma$: the Riemann Hypothesis is equivalent to the statement that
+
+$$ \sigma (n) < e^{\gamma} n \log \log n$$
+
+for all $n \ge 5041$, where $\gamma$ is the Euler-Mascheroni constant. The above inequality is called *Robin's inequality*.
