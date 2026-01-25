@@ -52,7 +52,15 @@ and so $\sigma(x) = 2^{k+1} y$, where
 
 $$ y = \frac{x}{2^{k+1} - 1}. $$
 
-By rearranging this definition of $y$, we can see that $x = y (2^{k + 1} - 1) = 2^{k+1} y - y = \sigma(x) - y$, which leads us to $\sigma(x) = x + y$. We now argue that $y$ is a divisor of $x$. This is true because we know from the previous line that $x = y (2^{k+1} - 1)$. Moreover, $y < x$ because $2^{k + 1} - 1 > 1$. Suppose for a contradiction that $y > 1$. Then $\sigma(x) \ge 1 + y + x > x + y$, which gives the contradiction we wanted. It follows that $y = 1$, and so $\sigma(x) = x + 1$, therefore $x$ is prime by Claim 1.
+I claim now that $y$ is an integer. Indeed, from the definition of $\sigma$, we know that
+
+$$ 2^{k+1}y  = \frac{2^{k+1 x }}{2^{k+1} - 1}$$
+
+is an integer, so $2^{k+1} - 1$ divides $2^kx$. But $2^{k+1} - 1$ and $2^{k+1}$ are coprime, so $2^{k+1} - 1$ must in fact divide $x$. Hence $y$ is an integer. 
+
+By rearranging the definition of $y$, we have $x = y (2^{k+1} - 1)$, so $y$ is a divisor of $x$. Moreover, since $2^{k+1} - 1 > 1$ by the assumption that $k \ge 1$, it follows that $y < x$. Therefore, $\sigma(x) \ge x + y$.
+
+Also, $x = y (2^{k + 1} - 1) = 2^{k+1} y - y = \sigma(x) - y$, which leads us to $\sigma(x) = x + y$. Suppose for a contradiction that $y > 1$. Then $\sigma(x) \ge 1 + y + x > x + y$, which gives the contradiction we wanted. It follows that $y = 1$, and so $\sigma(x) = x + 1$, therefore $x$ is prime by Claim 1.
 
 From this, it follows by setting $p = k - 1$ that $a$ can be written in the form $(2^{p-1})(2^p - 1)$, where $2^p - 1$ is prime, as claimed. $\blacksquare$
 
