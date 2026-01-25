@@ -52,9 +52,9 @@ and so $\sigma(x) = 2^{k+1} y$, where
 
 $$ y = \frac{x}{2^{k+1} - 1}. $$
 
-I claim now that $y$ is an integer. Indeed, from the definition of $\sigma$, we know that
+I claim that $y$ is an integer. Indeed, from the definition of $\sigma$, we know that
 
-$$ 2^{k+1}y  = \frac{2^{k+1 x }}{2^{k+1} - 1}$$
+$$ 2^{k+1}y  = \frac{2^{k+1} x}{2^{k+1} - 1}$$
 
 is an integer, so $2^{k+1} - 1$ divides $2^kx$. But $2^{k+1} - 1$ and $2^{k+1}$ are coprime, so $2^{k+1} - 1$ must in fact divide $x$. Hence $y$ is an integer. 
 
