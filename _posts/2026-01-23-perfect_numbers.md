@@ -34,7 +34,7 @@ $$ \sigma(ab) = \sum_{1 \le i \le k} \sum_{1 \le j \le l} d_i e_j $$
 
 which is precisely $\sigma(a) \sigma(b)$. $\blacksquare$
 
-**Note:** In Number Theory, a function $f : \mathbb{N} \to \mathbb{N}$ is usually called *multiplicative* if it satisfies $f(ab) = f(a)f(b)$ for all coprime $a$ and $b$. If $f(ab) = f(a)f(b)$ for *all* $a$ and $b$ (not necessarily coprime) then $f$ is called *completely multiplicative*.
+**Note:** In Number Theory, a function $f : \mathbb{N} \to \mathbb{N}$ (or more generally to $\mathbb{C}$) is usually called *multiplicative* if it satisfies $f(ab) = f(a)f(b)$ for all coprime $a$ and $b$. If $f(ab) = f(a)f(b)$ for *all* $a$ and $b$ (not necessarily coprime) then $f$ is called *completely multiplicative*.
 
 Having collected these facts, we are in a good position to approach the proof of **Theorem 1**.
 
