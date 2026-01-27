@@ -42,6 +42,8 @@ $$\sigma(a) = \prod_{i=1}^k \left( \frac{p_i^{\alpha_i + 1} - 1}{p_i - 1}\right)
 
 While we won't use this directly in the proof of **Theorem 1**, it's still nice to have.
 
+Now, having collected these facts, we are in a good position to approach the proof of **Theorem 1**.
+
 *Proof of Theorem 1.* We will first prove the converse, which was known by Euclid. We begin by supposing that $a = (2^{p-1})(2^p - 1)$, where $2^p - 1$ is prime. Since we want $a$ to be even, we may assume that $p \ge 2$. First, notice that $2^{p-1}$ and $2^p - 1$ are coprime: this is true since the only prime dividing $2^{p - 1}$ is $2$, meanwhile $2^p - 1$ is odd so has no factor of $2$. Therefore,
 
 $$ \sigma (a) = \sigma(2^{p-1}) \sigma(2^p - 1) = (2^p - 1)(2^p) = 2 \cdot (2^{p-1})(2^p - 1) = 2a $$
