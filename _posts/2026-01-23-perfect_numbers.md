@@ -36,7 +36,11 @@ which is precisely $\sigma(a) \sigma(b)$. $\blacksquare$
 
 **Note:** In Number Theory, a function $f : \mathbb{N} \to \mathbb{N}$ (or more generally to $\mathbb{C}$) is usually called *multiplicative* if it satisfies $f(ab) = f(a)f(b)$ for all coprime $a$ and $b$. If $f(ab) = f(a)f(b)$ for *all* $a$ and $b$ (not necessarily coprime) then $f$ is called *completely multiplicative*.
 
-Having collected these facts, we are in a good position to approach the proof of **Theorem 1**.
+Claim 3 can be used to write down a complete characterisation of $\sigma$ based on the prime factorisation of $a \in \mathbb{N}$. If $a = p_1 ^{\alpha_1} \cdots p_k^{\alpha_k}$, then 
+
+$$\sigma(a) = \Prod_{i=1}^n \left( \frac{p^{\alpha_i + 1} - 1}{p - 1}\right).$$
+
+While we won't use this directly in the proof of **Theorem 1**, it's still nice to have.
 
 *Proof of Theorem 1.* We will first prove the converse, which was known by Euclid. We begin by supposing that $a = (2^{p-1})(2^p - 1)$, where $2^p - 1$ is prime. Since we want $a$ to be even, we may assume that $p \ge 2$. First, notice that $2^{p-1}$ and $2^p - 1$ are coprime: this is true since the only prime dividing $2^{p - 1}$ is $2$, meanwhile $2^p - 1$ is odd so has no factor of $2$. Therefore,
 
