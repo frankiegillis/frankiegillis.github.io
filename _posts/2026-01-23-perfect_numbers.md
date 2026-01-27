@@ -40,7 +40,7 @@ which is precisely $\sigma(a) \sigma(b)$. $\blacksquare$
 
 $$\sigma(a) = \prod_{i=1}^k \left( \frac{p_i^{\alpha_i + 1} - 1}{p_i - 1}\right).$$
 
-While we won't use this directly in the proof of **Theorem 1**, it's still nice to have.
+While we won't use this directly in the proof of **Theorem 1**, it's nice to have.
 
 Now, having collected these facts, we are in a good position to approach the proof of **Theorem 1**.
 
