@@ -16,4 +16,4 @@ for all $x, y \in X$.
 
 *Proof.* $(\Rightarrow)$
 
-$(\Leftarrow)$. Suppose that $d$ and $d'$ are equivalent.
+$(\Leftarrow)$. Suppose that $d$ and $d'$ are equivalent. Let $U \subseteq X$ be open with respect to $d$, and pick any $x_0 \in U$. We can find $\epsilon > 0$ such that the open ball $B_d(x_0, \epsilon) \subseteq U$.
