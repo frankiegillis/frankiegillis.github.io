@@ -14,10 +14,12 @@ for all $x, y \in X$.
 
 **Theorem 2.** The metrics $d$ and $d'$ are equivalent if and only if they generate the same collection of open sets. That is, any set $U \subseteq X$ is open in $(X, d)$ if and only if it is open in $(X, d')$.
 
-*Proof.* $(\Rightarrow)$
-
-$(\Leftarrow)$ Suppose that $d$ and $d'$ are equivalent. Let $U \subseteq X$ be open with respect to $d$, and pick any $x_0 \in U$. We can find $\epsilon > 0$ such that the open ball $B_d(x_0, \epsilon) \subseteq U$. Using the definiton of equivalence, for any $x \in X$ with $d'(x, x_0) < \epsilon / c_2$, we have
+*Proof.* $(\Rightarrow)$ Suppose that $d$ and $d'$ are equivalent. Let $U \subseteq X$ be open with respect to $d$, and pick any $x_0 \in U$. We can find $\epsilon > 0$ such that the open ball $B_d(x_0, \epsilon) \subseteq U$. Using the definiton of equivalence, for any $x \in X$ with $d'(x, x_0) < \epsilon / c_2$, we have
 
 $$ d(x, x_0) \le c_2 d'(x, x_0) < \epsilon.$$
 
-So, if $x \in B_{d'}(x_0, \epsilon / c_2)$, then $x \in B_d(x_0, \epsilon)$. It follows that $B_{d'}(x_0, \epsilon / c_2) \subseteq B_d(x_0, \epsilon) \subseteq U$. Since $x_0$ was arbitrary, we conclude that $U$ is also open with respect to $d'$. The other direction follows from the symmetric argument. $\blacksquare$
+So, if $x \in B_{d'}(x_0, \epsilon / c_2)$, then $x \in B_d(x_0, \epsilon)$. It follows that $B_{d'}(x_0, \epsilon / c_2) \subseteq B_d(x_0, \epsilon) \subseteq U$. Since $x_0$ was arbitrary, we conclude that $U$ is also open with respect to $d'$. The other direction follows from the symmetric argument.
+
+$(\Leftarrow)$
+
+$\blacksquare$
