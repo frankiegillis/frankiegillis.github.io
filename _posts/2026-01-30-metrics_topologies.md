@@ -20,7 +20,7 @@ $$ d(x, x_0) \le c_2 d'(x, x_0) < \epsilon.$$
 
 So, if $x \in B_{d'}(x_0, \epsilon / c_2)$, then $x \in B_d(x_0, \epsilon)$. It follows that $B_{d'}(x_0, \epsilon / c_2) \subseteq B_d(x_0, \epsilon) \subseteq U$. Since $x_0$ was arbitrary, we conclude that $U$ is also open with respect to $d'$. Since this situation is symmetric in the metrics $d$ and $d'$, the claim follows. $\blacksquare$
 
-We might ask about the converse of Theorem 2. It is false.
+We might ask about the converse of Theorem 2.
 
 **Counterexample.** Consider $\mathbb{Z}$ with $d_1$ the discrete metric, and $d_2$ the euclidean metric inherited from $\mathbb{R}$. Both of these metrics induce the same topology, namely the discrete topology, however they are certainly not equivalent metrics in analytic sense: $d_1$ is bounded by $1$, and $d_2$ is unbounded.
 
