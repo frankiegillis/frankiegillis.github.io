@@ -20,6 +20,8 @@ $$ d(x, x_0) \le c_2 d'(x, x_0) < \epsilon.$$
 
 So, if $x \in B_{d'}(x_0, \epsilon / c_2)$, then $x \in B_d(x_0, \epsilon)$. It follows that $B_{d'}(x_0, \epsilon / c_2) \subseteq B_d(x_0, \epsilon) \subseteq U$. Since $x_0$ was arbitrary, we conclude that $U$ is also open with respect to $d'$. Since this situation is symmetric in the metrics $d$ and $d'$, the claim follows. $\blacksquare$
 
-It is natural to think about the converse of **Theorem 2.** It turns out to be false in general, and this will become a theme when making the jump from metric to topological spaces: many ideas from analysis gain a certain 'fuzziness' when brought over to topology. Limits of seqeunces are a classic example. 
+We might ask about the converse of Theorem 2. It is false.
 
-** **
+**Counterexample.** Consider $\mathbb{Z}$ with $d_1$ the discrete metric, and $d_2$ the euclidean metric inherited from $\mathbb{R}$. Both of these metrics induce the same topology, namely the discrete topology, however they are certainly not equivalent metrics in analytic sense: $d_1$ is bounded by $1$, and $d_2$ is unbounded.
+
+This becomes a theme when making the jump from metric to topological spaces: many ideas from analysis gain a certain 'fuzziness' when brought over to topology, and we have to choose definitions that aren't quite equivalent. We will say that two metrics are equivalent if they induce the same collection of open sets, which is a weaker notion that the analytic defintion. Another classic example of this fuzziness is limits of sequences in topological spaces. 
