@@ -22,6 +22,6 @@ So, if $x \in B_{d'}(x_0, \epsilon / c_2)$, then $x \in B_d(x_0, \epsilon)$. It 
 
 We might ask about the converse of Theorem 2. It is false.
 
-**Counterexample.** Consider $\mathbb{Z}$ with $d_1$ the discrete metric, and $d_2$ the euclidean metric inherited from $\mathbb{R}$. Both of these metrics induce the same topology, namely the discrete topology, however they are certainly not equivalent metrics in analytic sense: $d_1$ is bounded by $1$, and $d_2$ is unbounded.
+**Counterexample.** Consider $\mathbb{Z}$ with the discrete metric, and the euclidean metric inherited from $\mathbb{R}$. Both of these metrics induce the same topology, namely the discrete topology, however they are certainly not equivalent metrics in analytic sense: $d_1$ is bounded by $1$, and $d_2$ is unbounded.
 
 This becomes a theme when making the jump from metric to topological spaces: many ideas from analysis gain a certain 'fuzziness' when brought over to topology, and we have to choose definitions that aren't quite equivalent. We will say that two metrics are equivalent if they induce the same collection of open sets, which is a weaker notion that the analytic defintion. Another classic example of this fuzziness is limits of sequences in topological spaces. 
