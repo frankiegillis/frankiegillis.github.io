@@ -8,7 +8,7 @@ $(\Leftarrow)$ Now suppose that, for any open set $U \subseteq Y$, the set $f^{-
 
 **Defintion.** Let $(X, d)$ and $(X, d')$ be metrics spaces. The metrics $d$ and $d'$ are called *equivalent* if there exist constants $0 < c_1 < c_2$ such that 
 
-$$ c_1 d(x, y) \le d'(x, y) \le c_2 d(x, y)$$
+$$ c_1 d'(x, y) \le d(x, y) \le c_2 d'(x, y)$$
 
 for all $x, y \in X$.
 
@@ -16,8 +16,8 @@ for all $x, y \in X$.
 
 *Proof.* $(\Rightarrow)$
 
-$(\Leftarrow)$ Suppose that $d$ and $d'$ are equivalent. Let $U \subseteq X$ be open with respect to $d$, and pick any $x_0 \in U$. We can find $\epsilon > 0$ such that the open ball $B_d(x_0, \epsilon) \subseteq U$. Using the definiton of equivalence, for any $x \in X$ with $d(x, x_0) < \epsilon$, we have
+$(\Leftarrow)$ Suppose that $d$ and $d'$ are equivalent. Let $U \subseteq X$ be open with respect to $d$, and pick any $x_0 \in U$. We can find $\epsilon > 0$ such that the open ball $B_d(x_0, \epsilon) \subseteq U$. Using the definiton of equivalence, for any $x \in X$ with $d'(x, x_0) < c_2\epsilon$, we have
 
-$$ d'(x, x_0) \le c_2 d(x, x_0) < c_2 \epsilon$$
+$$ d(x, x_0) \le c_2 d'(x, x_0) < c_2 \epsilon$$
 
-so it follows that $B_{d'}(x_0, c_2 \epsilon) \subseteq B_d(x_0, \epsilon) \subseteq U$. Since $x_0$ was arbitrary, we conclude that $U$ is also open with respect to $d'$.
+so, if $x \in B_{d'}(x_0, c_2 \epsilon)$, then $x \in B_d(x_0, \epsilon)$. It follows that $B_{d'}(x_0, c_2 \epsilon) \subseteq B_d(x_0, \epsilon) \subseteq U$. Since $x_0$ was arbitrary, we conclude that $U$ is also open with respect to $d'$.
