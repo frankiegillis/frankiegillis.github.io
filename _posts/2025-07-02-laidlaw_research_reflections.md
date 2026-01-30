@@ -1,4 +1,4 @@
-## Laidlaw Summer Research Reflections: Week 5
+## Laidlaw Summer Research Reflection: Week 5
 
 My summer research project tackles a problem in pure mathematics, specifically, in graph theory - the abstract study of networks and how information is connected. So what is pure mathematics? We often talk about 'pure' mathematics in contrast to 'applied' mathematics, which is mathematics developed to solve a real world problem, like in physics, engineering and computer science.
 
