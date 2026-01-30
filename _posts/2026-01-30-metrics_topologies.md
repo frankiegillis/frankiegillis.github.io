@@ -20,4 +20,4 @@ $(\Leftarrow)$ Suppose that $d$ and $d'$ are equivalent. Let $U \subseteq X$ be 
 
 $$ d(x, x_0) \le c_2 d'(x, x_0) < \epsilon$$
 
-so, if $x \in B_{d'}(x_0, c_2 \epsilon)$, then $x \in B_d(x_0, \epsilon)$. It follows that $B_{d'}(x_0, c_2 \epsilon) \subseteq B_d(x_0, \epsilon) \subseteq U$. Since $x_0$ was arbitrary, we conclude that $U$ is also open with respect to $d'$.
+so, if $x \in B_{d'}(x_0, \epsilon / c_2)$, then $x \in B_d(x_0, \epsilon)$. It follows that $B_{d'}(x_0, c_2 \epsilon) \subseteq B_d(x_0, \epsilon) \subseteq U$. Since $x_0$ was arbitrary, we conclude that $U$ is also open with respect to $d'$.
