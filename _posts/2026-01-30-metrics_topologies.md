@@ -18,7 +18,7 @@ for all $x, y \in X$.
 
 $$ d(x, x_0) \le c_2 d'(x, x_0) < \epsilon.$$
 
-So, if $x \in B_{d'}(x_0, \epsilon / c_2)$, then $x \in B_d(x_0, \epsilon)$. It follows that $B_{d'}(x_0, \epsilon / c_2) \subseteq B_d(x_0, \epsilon) \subseteq U$. Since $x_0$ was arbitrary, we conclude that $U$ is also open with respect to $d'$. The other direction follows from the symmetric argument.
+So, if $x \in B_{d'}(x_0, \epsilon / c_2)$, then $x \in B_d(x_0, \epsilon)$. It follows that $B_{d'}(x_0, \epsilon / c_2) \subseteq B_d(x_0, \epsilon) \subseteq U$. Since $x_0$ was arbitrary, we conclude that $U$ is also open with respect to $d'$. This situation is symmetric in $d$ and $d'$, so the claim follows.
 
 $(\Leftarrow)$
 
