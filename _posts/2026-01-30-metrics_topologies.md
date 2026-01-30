@@ -16,8 +16,8 @@ for all $x, y \in X$.
 
 *Proof.* $(\Rightarrow)$
 
-$(\Leftarrow)$ Suppose that $d$ and $d'$ are equivalent. Let $U \subseteq X$ be open with respect to $d$, and pick any $x_0 \in U$. We can find $\epsilon > 0$ such that the open ball $B_d(x_0, \epsilon) \subseteq U$. Using the definiton of equivalence, for any $x \in X$ with $d'(x, x_0) < c_2\epsilon$, we have
+$(\Leftarrow)$ Suppose that $d$ and $d'$ are equivalent. Let $U \subseteq X$ be open with respect to $d$, and pick any $x_0 \in U$. We can find $\epsilon > 0$ such that the open ball $B_d(x_0, \epsilon) \subseteq U$. Using the definiton of equivalence, for any $x \in X$ with $d'(x, x_0) < \epsilon / c_2$, we have
 
-$$ d(x, x_0) \le c_2 d'(x, x_0) < c_2 \epsilon$$
+$$ d(x, x_0) \le c_2 d'(x, x_0) < \epsilon$$
 
 so, if $x \in B_{d'}(x_0, c_2 \epsilon)$, then $x \in B_d(x_0, \epsilon)$. It follows that $B_{d'}(x_0, c_2 \epsilon) \subseteq B_d(x_0, \epsilon) \subseteq U$. Since $x_0$ was arbitrary, we conclude that $U$ is also open with respect to $d'$.
