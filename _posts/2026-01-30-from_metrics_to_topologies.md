@@ -1,6 +1,6 @@
 ## From Metrics to Topologies
 
-The purpose of this post is to provide a dictionary between talking about metrics to talking about topology and open sets.
+The purpose of this post is to provide a dictionary translating between metrics and distance, and topology and open sets.
 
 **Theorem 1** Let $(X, d)$ and $(Y, d')$ be a metric spaces, and let $f \colon X \to Y$ be a function. Then, $f$ is continuous if and only if, for every open set $U \subseteq Y$, the set $f^{-1}(U)$ is open in $X$.
 
