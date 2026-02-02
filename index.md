@@ -11,7 +11,9 @@ as part of my second summer with Laidlaw. I also plan to complete another resear
 
 For the things I've done, see my [CV](pdfs/CV.pdf) or my [LinkedIn](https://www.linkedin.com/in/frankie-gillis/).
 
+
 <div style="text-align: center"><img src="pdfs/Pseudo-Similar-Graph.png" alt="A graph with four mutually pseudo-similar vertices" width="50%"/></div>
+
 
 In the above graph, the vertices labelled $1$, $2$, $3$, and $4$ have pairwise-isomorphic vertex-deleted subgraphs, but no automorphism of the graph maps one onto the other. We call vertices
 having this property (mutually) *pseudo-similar*. Such graphs were the focus of my 2025 summer research.
