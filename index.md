@@ -15,4 +15,4 @@ Otherwise, take a look at [this](pdfs/Pseudo-Similar-Graph.pdf) amazing graph. T
 pairwise-isomorphic vertex-deleted subgraphs, but no automorphism of the graph maps one onto the other. We call vertices
 having this property (mutually) *pseudo-similar*.
 
-![alt text](pdfs/Pseudo-Similar_Graph.pdf "Title")
+![alt text](pdfs/Pseudo-Similar-Graph.pdf "Title")
