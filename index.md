@@ -11,8 +11,10 @@ as part of my second summer with Laidlaw. I also plan to complete another resear
 
 For the things I've done, see my [CV](pdfs/CV.pdf) or my [LinkedIn](https://www.linkedin.com/in/frankie-gillis/).
 
-Otherwise, take a look at [this](pdfs/Pseudo-Similar-Graph.pdf) amazing graph. The vertices labelled $1$, $2$, $3$, and $4$ have
-pairwise-isomorphic vertex-deleted subgraphs, but no automorphism of the graph maps one onto the other. We call vertices
+The vertices labelled $1$, $2$, $3$, and $4$ have pairwise-isomorphic vertex-deleted subgraphs, but no automorphism of the graph maps one onto the other. We call vertices
 having this property (mutually) *pseudo-similar*.
 
-![alt text](pdfs/Pseudo-Similar-Graph.png "Title")
+![A graph with four mutually pseudo-similar vertices](pdfs/Pseudo-Similar-Graph.png "A graph with four mutually pseudo-similar vertices")
+
+In the above graph, the vertices labelled $1$, $2$, $3$, and $4$ have pairwise-isomorphic vertex-deleted subgraphs, but no automorphism of the graph maps one onto the other. We call vertices
+having this property (mutually) *pseudo-similar*. Such graphs were the focus of my 2025 summer research.
