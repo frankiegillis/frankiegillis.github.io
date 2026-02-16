@@ -31,7 +31,7 @@ But this does not uniquely define the product topology on $\prod_{i \in \mathcal
 The above diagram is said to commute, when $f_i = \pi_i \circ g$. That is, we can factor every map from $Y$ into $X_i$ uniquely through the product space $\prod_{i \in \mathcal{I}}X_i$. For instance, with the box and product topologies on $\prod_{i \in \mathcal{I}}X_i$, the identity map makes the following diagram commute
 
 <br>
-<div style="text-align: center"><img src="https://github.com/frankiegillis/frankiegillis.github.io/blob/main/pdfs/product2.jpeg" alt="Commutative diagram" width="30%"/></div>
+<div style="text-align: center"><img src="https://github.com/frankiegillis/frankiegillis.github.io/blob/main/pdfs/product2.jpeg" alt="Commutative diagram 2" width="30%"/></div>
 <br>
 
 since every open set in the product topology is also open in the box topology. However, this does not work the other way around, since not every open set in the box topology is open in the product topology. To make things concrete, once
