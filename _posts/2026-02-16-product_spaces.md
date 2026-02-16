@@ -28,4 +28,5 @@ PICTURE
 
 The aboe diagram is said to commute, when $\f_i = pi_i \circ g$. That is, we can factor every map from $Y$ into $X_i$ uniquely through the product space $\prod_{i \in \mathcal{I}}X_i$. For instance, with the box and product topologies on $\prod_{i \in \mathcal{I}}X_i$, the identity map makes the following diagram commute
 
-since every open set in the product topology is also open in the box topology. However, this does not work the other way around, since not every open set in the box topology is open in the product topology.
+since every open set in the product topology is also open in the box topology. However, this does not work the other way around, since not every open set in the box topology is open in the product topology. As a concrete example, once
+again take each $X_i$ to be a copy of
