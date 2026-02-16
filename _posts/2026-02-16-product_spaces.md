@@ -14,4 +14,9 @@ This all seems fine, apart from the condition that all but finitely many of the 
 
 $$ \mathscr{B} = \set{\prod_{i \in \mathcal{I}} U_i  \mid U_i \subseteq X_i \text{ open}}$$
 
-and be done with it. This topology gets called the box topology on $\prod_{i \in \mathcal{I}} X_i$, and is a finer topology than the product topology.
+and be done with it. This topology gets called the box topology on $\prod_{i \in \mathcal{I}} X_i$, and it contains the product topology as a subset, and is in most cases strictly finer than the product topology. For instance, if we take each
+$X_i$ to be a copy of $\mathbb{R}$ with the usual topology for $i \in \mathbb{N}$ the set
+
+$$(0,1) \times (0, 1) \times (0, 1) \times \cdots$$
+
+is open with the box topology, but not with the product topology. 
