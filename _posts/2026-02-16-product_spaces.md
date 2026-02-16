@@ -38,7 +38,7 @@ since every open set in the product topology is also open in the box topology. H
 again take each $X_i$ to be a copy of $\mathbb{R}$ with the usual topology for $i \in \mathbb{N}$. We want to find a map that makes the following diagram commute
 
 <br>
-<div style="text-align: center"><img src="/_posts/images/product3.png" alt="Commutative diagram" width="30%"/></div>
+<div style="text-align: center"><img src="https://github.com/frankiegillis/frankiegillis.github.io/blob/main/pdfs/product3.jpeg" alt="Commutative diagram 3" width="30%"/></div>
 <br>
 
 To make the maps agree as functions, we must have $f$ as the identity map on the underlying set $\prod_{i \in \mathcal{I}} X_i$. But this map is not continuous, since the preimage of the open set
