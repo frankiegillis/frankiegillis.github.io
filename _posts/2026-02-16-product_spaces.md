@@ -51,7 +51,7 @@ An even more concrete way of showing that the box topology doesn't make any sens
 
 $$\tau \colon X_1 \to \prod_{i \in \mathcal{I}} X_i$$
 
-by $\tau(x) = (x, x, x, \dots)$. That is, $\tau$ is the diagonal map into $\prod_{i \in \mathcal{I}} X_i$. Its composition with the projection map $\pi_1$ is just the identity function on $X_1$, so $\tau$ is a very nicely behaved function. However, I claim that $\tau$ is not continuous in the box topology. Consider the set
+by $\tau(x) = (x, x, x, \dots)$. That is, $\tau$ is the diagonal map into $\prod_{i \in \mathcal{I}} X_i$. Its composition with the projection map $\pi_1$ is just the identity map on $X_1$, so $\tau$ is a very nicely behaved function. However, I claim that $\tau$ is not continuous in the box topology. Consider the set
 
 $$I = \prod_{n = 1}^\infty \left(-\frac{1}{n}, \frac{1}{n} \right) \subseteq \prod_{i \in \mathcal{I}} X_i.$$
 
