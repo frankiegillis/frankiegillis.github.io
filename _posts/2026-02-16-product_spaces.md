@@ -25,7 +25,7 @@ is open with the box topology, but not with the product topology. So why is this
 But this does not uniquely define the product topology on $\prod_{i \in \mathcal{I}} X_I$, since both the box and product topologies satisfy this property. What we need here is the idea of a universal property from category theory. If $\prod_{i \in \mathcal{I}} X_i$ is the product space with projection maps $\pi_i \colon \prod_{i \in \mathcal{I}} X_i \to X $, then for any other space $Y$ such that, for each $i \in \mathcal{I}$, there exists a continuous map $f_i \colon Y \to X_i$, we want there to be a unique continuous map $g \colon Y \to \prod_{i \in \mathcal{I}} X_i$ such that $f_i = \pi_i \circ g$.
 
 <br>
-<div style="text-align: center"><img src="/_posts/images/product1.png" alt="Commutative diagram" width="30%"/></div>
+<div style="text-align: center"><img src="https://github.com/frankiegillis/frankiegillis.github.io/blob/main/_posts/images/product1.png" alt="Commutative diagram" width="30%"/></div>
 <br>
 
 The above diagram is said to commute, when $f_i = \pi_i \circ g$. That is, we can factor every map from $Y$ into $X_i$ uniquely through the product space $\prod_{i \in \mathcal{I}}X_i$. For instance, with the box and product topologies on $\prod_{i \in \mathcal{I}}X_i$, the identity map makes the following diagram commute
