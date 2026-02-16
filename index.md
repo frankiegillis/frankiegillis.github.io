@@ -17,3 +17,7 @@ For the things I've done, see my [CV](pdfs/CV.pdf) or my [LinkedIn](https://www.
 
 In the above graph, the vertices labelled $1$, $2$, $3$, and $4$ have pairwise-isomorphic vertex-deleted subgraphs, but no automorphism of the graph maps one onto the other. We call vertices
 having this property (mutually) *pseudo-similar*. Such graphs were the focus of my 2025 summer research.
+
+<br>
+<div style="text-align: center"><img src="https://github.com/frankiegillis/frankiegillis.github.io/blob/main/pdfs/product3.jpeg" alt="Commutative diagram" width="30%"/></div>
+<br>
