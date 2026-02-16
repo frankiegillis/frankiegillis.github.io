@@ -55,4 +55,4 @@ by $\tau(x) = (x, x, x, \dots)$. That is, $\tau$ is the diagonal map into $\prod
 
 $$I = \prod_{n = 1}^\infty \left(-\frac{1}{n}, \frac{1}{n} \right) \subseteq \prod_{i \in \mathcal{I}} X_i.$$
 
-$I$ is open in the box topology, but not in the product topology. The preimage $\tau^{-1} (I) = \set{0}$ which is not open in $\mathbb{R}$ with the unusual topology, so $\tau$ is indeed not continous in the box topology. This is clearly nonsese. You can check as an exercise that with the product topology, $\tau$ is actually a continuous function.
+$I$ is open in the box topology, but not in the product topology. The preimage of $I$ is $\tau^{-1} (I) = \set{0}$, which is not open in $\mathbb{R}$ with the usual topology, so $\tau$ is indeed not continous in the box topology. This is clearly nonsese. You can check as an exercise that with the product topology, $\tau$ is actually a continuous function.
