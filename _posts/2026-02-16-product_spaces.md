@@ -28,7 +28,7 @@ But this does not uniquely define the product topology on $\prod_{i \in \mathcal
 <div style="text-align: center"><img src="images/product1.png" alt="Commutative diagram" width="30%"/></div>
 <br>
 
-The above diagram is said to commute, when $\f_i = pi_i \circ g$. That is, we can factor every map from $Y$ into $X_i$ uniquely through the product space $\prod_{i \in \mathcal{I}}X_i$. For instance, with the box and product topologies on $\prod_{i \in \mathcal{I}}X_i$, the identity map makes the following diagram commute
+The above diagram is said to commute, when $f_i = \pi_i \circ g$. That is, we can factor every map from $Y$ into $X_i$ uniquely through the product space $\prod_{i \in \mathcal{I}}X_i$. For instance, with the box and product topologies on $\prod_{i \in \mathcal{I}}X_i$, the identity map makes the following diagram commute
 
 <br>
 <div style="text-align: center"><img src="images/product2.png" alt="Commutative diagram" width="30%"/></div>
