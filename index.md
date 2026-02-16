@@ -19,5 +19,5 @@ In the above graph, the vertices labelled $1$, $2$, $3$, and $4$ have pairwise-i
 having this property (mutually) *pseudo-similar*. Such graphs were the focus of my 2025 summer research.
 
 <br>
-<div style="text-align: center"><img src="https://github.com/frankiegillis/frankiegillis.github.io/blob/main/pdfs/product3.jpeg" alt="Commutative diagram" width="30%"/></div>
+<div style="text-align: center"><img src="/pdfs/product3.jpeg" alt="Commutative diagram" width="30%"/></div>
 <br>
