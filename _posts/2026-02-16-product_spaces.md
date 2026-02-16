@@ -28,8 +28,12 @@ PICTURE
 
 The aboe diagram is said to commute, when $\f_i = pi_i \circ g$. That is, we can factor every map from $Y$ into $X_i$ uniquely through the product space $\prod_{i \in \mathcal{I}}X_i$. For instance, with the box and product topologies on $\prod_{i \in \mathcal{I}}X_i$, the identity map makes the following diagram commute
 
+PICTURE
+
 since every open set in the product topology is also open in the box topology. However, this does not work the other way around, since not every open set in the box topology is open in the product topology. To make things concrete, once
-again take each $X_i$ to be a copy of $\mathbb{R}$ with the usual topology for $i \in \mathbb{N}$. We want to find a map that makes the following diagram commute.
+again take each $X_i$ to be a copy of $\mathbb{R}$ with the usual topology for $i \in \mathbb{N}$. We want to find a map that makes the following diagram commute
+
+PICTURE
 
 To make the maps agree as functions, we must have $f$ as the identity map on the underlying set $\prod_{i \in \mathcal{I}} X_i$. But this map is not continuous, since the preimage of the open set
 
@@ -43,6 +47,6 @@ $$\tau \colon X_1 \to \prod_{i \in \mathcal{I}} X_i$$
 
 by $\tau(x) = (x, x, x, \dots)$. That is, $\tau$ is the diagonal map into $\prod_{i \in \mathcal{I}} X_i$. Its composition with the projection map $\pi_1$ is just the identity function on $X_1$, so $\tau$ is a very nicely behaved function. However, I claim that $\tau$ is not continuous in the box topology. Consider the set
 
-$$I = \prod_{n = 1}^\infty (-\frac{1}{n}), \frac{1}{n} \subseteq \prod_{i \in \mathcal{I}} X_i.$$
+$$I = \prod_{n = 1}^\infty \left(-\frac{1}{n}, \frac{1}{n} \right) \subseteq \prod_{i \in \mathcal{I}} X_i.$$
 
 $I$ is open in the box topology, but not in the product topology. The preimage $\tau^{-1} (I) = \set{0}$ which is not open in $\mathbb{R}$ with the unusual topology, so $\tau$ is indeed not continous in the box topology. This is clearly nonsese. You can check as an exercise that with the product topology, $\tau$ is actually a continuous function.
