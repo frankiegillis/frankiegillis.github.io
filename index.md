@@ -12,6 +12,8 @@ for this project, which carries 8 weeks of funding.
 
 For the things I've done, see my [CV](pdfs/CV.pdf) or my [LinkedIn](https://www.linkedin.com/in/frankie-gillis/).
 
+The blog section of this website mostly contains expositions on parts undergraduate Mathematics, along with writeups that I thought were too nice to end up lost in the void.
+
 <br>
 <div style="text-align: center"><img src="pdfs/Pseudo-Similar-Graph.png" alt="A graph with four mutually pseudo-similar vertices" width="66%"/></div>
 <br>
