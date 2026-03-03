@@ -7,8 +7,8 @@ I also contribute to the Digraphs package for GAP. Here's an explanatory [note](
 Is2EdgeTransitive.
 
 In summer 2026, I'll be going to Boston MA to teach HTML, CSS and web design principles with the [Timothy Smith Network](https://timothysmithnetwork.org/)
-as part of my second summer with Laidlaw. I also plan to complete another research project in Pure Mathematics, likely relating to combinatorics of external difference families
-and applications to information security.
+as part of my second summer with Laidlaw. I also plan to complete another research project in Pure Mathematics, in Combinatorics. I've been offered a Harry Edwards scholarship
+for this project, which carries 8 weeks of funding.
 
 For the things I've done, see my [CV](pdfs/CV.pdf) or my [LinkedIn](https://www.linkedin.com/in/frankie-gillis/).
 
