@@ -16,13 +16,13 @@ for this project, which carries 8 weeks of funding.
 
 For the things I've done, see my [CV](pdfs/CV.pdf) or my [LinkedIn](https://www.linkedin.com/in/frankie-gillis/).
 
-## Miscellaneous
-
-The blog section of this website mostly contains expositions on parts of undergraduate Mathematics I find interesting, along with writeups that I thought were nice enough to keep.
-
 <br>
 <div style="text-align: center"><img src="pdfs/Pseudo-Similar-Graph.png" alt="A graph with four mutually pseudo-similar vertices" width="66%"/></div>
 <br>
 
 In the above graph, the vertices labelled $1$, $2$, $3$, and $4$ have pairwise-isomorphic vertex-deleted subgraphs, but no automorphism of the graph maps one onto the other. We call vertices
 having this property (mutually) *pseudo-similar*. Such graphs were the focus of my 2025 summer research.
+
+## Blog
+
+The blog section of this website mostly contains expositions on parts of undergraduate Mathematics I find interesting, along with writeups that I thought were nice enough to keep.
