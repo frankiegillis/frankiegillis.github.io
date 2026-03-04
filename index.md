@@ -7,12 +7,12 @@ I'm a maths undergraduate at the University of St Andrews and Laidlaw Leadership
 My 2025 summer research project was in Algebraic Graph Theory, and was related to graph reconstruction.
 Here's my [poster](pdfs/Laidlaw_Research_Poster.pdf) and [research essay](pdfs/Laidlaw_Research.pdf).
 
-I also contribute to the Digraphs package for GAP. Here's an explanatory [note](pdfs/Is2EdgeTransitive.pdf) on the function
-Is2EdgeTransitive.
+In summer 2026, I also plan to complete another research project in Pure Mathematics, in Combinatorics. I've been offered a Harry Edwards scholarship
+for this project, which carries 8 weeks of funding. I'll also be going to Boston MA to teach HTML, CSS and web design principles with the [Timothy Smith Network](https://timothysmithnetwork.org/)
+as part of my second summer with Laidlaw
 
-In summer 2026, I'll be going to Boston MA to teach HTML, CSS and web design principles with the [Timothy Smith Network](https://timothysmithnetwork.org/)
-as part of my second summer with Laidlaw. I also plan to complete another research project in Pure Mathematics, in Combinatorics. I've been offered a Harry Edwards scholarship
-for this project, which carries 8 weeks of funding.
+I'm a contributor to the Digraphs package for GAP. Here's an explanatory [note](pdfs/Is2EdgeTransitive.pdf) on the function
+Is2EdgeTransitive.
 
 For the things I've done, see my [CV](pdfs/CV.pdf) or my [LinkedIn](https://www.linkedin.com/in/frankie-gillis/).
 
