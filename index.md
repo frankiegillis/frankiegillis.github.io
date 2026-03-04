@@ -1,4 +1,8 @@
+## About
+
 I'm a maths undergraduate at the University of St Andrews and Laidlaw Leadership and Research Scholar.
+
+## Research Experience
 
 My 2025 summer research project was in Algebraic Graph Theory, and was related to graph reconstruction.
 Here's my [poster](pdfs/Laidlaw_Research_Poster.pdf) and [research essay](pdfs/Laidlaw_Research.pdf).
@@ -11,6 +15,8 @@ as part of my second summer with Laidlaw. I also plan to complete another resear
 for this project, which carries 8 weeks of funding.
 
 For the things I've done, see my [CV](pdfs/CV.pdf) or my [LinkedIn](https://www.linkedin.com/in/frankie-gillis/).
+
+## Miscellaneous
 
 The blog section of this website mostly contains expositions on parts of undergraduate Mathematics I find interesting, along with writeups that I thought were nice enough to keep.
 
