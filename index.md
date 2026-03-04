@@ -2,7 +2,7 @@
 
 I'm a maths undergraduate at the University of St Andrews and Laidlaw Leadership and Research Scholar.
 
-# Research Experience
+## Research Experience
 
 My 2025 summer research project was in Algebraic Graph Theory, and was related to graph reconstruction.
 Here's my [poster](pdfs/Laidlaw_Research_Poster.pdf) and [research essay](pdfs/Laidlaw_Research.pdf).
@@ -23,6 +23,6 @@ For the things I've done, see my [CV](pdfs/CV.pdf) or my [LinkedIn](https://www.
 In the above graph, the vertices labelled $1$, $2$, $3$, and $4$ have pairwise-isomorphic vertex-deleted subgraphs, but no automorphism of the graph maps one onto the other. We call vertices
 having this property (mutually) *pseudo-similar*. Such graphs were the focus of my 2025 summer research.
 
-# Blog
+## Blog
 
 The blog section of this website mostly contains expositions on parts of undergraduate Mathematics I find interesting, along with writeups that I thought were nice enough to keep.
