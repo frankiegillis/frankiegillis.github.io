@@ -10,7 +10,7 @@ $(\Leftarrow)$ Now suppose that, for any open set $U \subseteq Y$, the set $f^{-
 
 Now we will talk about what it means for two metrics to be equivalent. There are two different ideas here, one from analysis and one using topology. As we will see, one is stronger than the other.
 
-**Defintion.** Let $(X, d)$ and $(X, d')$ be metrics spaces. The metrics $d$ and $d'$ are called (bilipschitz) *equivalent* if there exist constants $0 < c_1 < c_2$ such that
+**Defintion.** Let $(X, d)$ and $(X, d')$ be metrics spaces. The metrics $d$ and $d'$ are called *(bilipschitz) equivalent* if there exist constants $0 < c_1 < c_2$ such that
 
 $$ c_1 d'(x, y) \le d(x, y) \le c_2 d'(x, y)$$
 
