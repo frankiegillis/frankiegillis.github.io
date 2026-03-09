@@ -10,7 +10,7 @@ Here's my [poster](pdfs/Laidlaw_Research_Poster.pdf) and [research essay](pdfs/L
 In summer 2026, I also plan to complete another research project in pure mathematics, in combinatorics and coding theory. I've been offered a Harry Edwards scholarship for this project, which carries 8 weeks of funding.
 
 I'll also be going to Boston, Massachusetts to teach HTML, CSS and web design principles with the [Timothy Smith Network](https://timothysmithnetwork.org/)
-as part of my second summer with Laidlaw
+as part of my second summer with Laidlaw.
 
 I'm a contributor to the Digraphs package for GAP. Here's an explanatory [note](pdfs/Is2EdgeTransitive.pdf) on the function
 Is2EdgeTransitive.
