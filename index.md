@@ -5,7 +5,7 @@ I'm a maths undergraduate at the University of St Andrews and Laidlaw Leadership
 ## Research Experience
 
 My 2025 summer research project was in algebraic graph theory, and was related to graph reconstruction.
-Here's my [poster](pdfs/Laidlaw_Research_Poster.pdf) and [research essay](pdfs/Laidlaw_Research.pdf).
+Here's my [poster](pdfs/Laidlaw_Research_Poster.pdf) and [research essay](pdfs/Laidlaw_Research.pdf). This was funded by a Laidlaw scholarship.
 
 In summer 2026, I also plan to complete another research project in pure mathematics, in combinatorics and coding theory. I've been offered a Harry Edwards scholarship for this project, which carries 8 weeks of funding.
 
