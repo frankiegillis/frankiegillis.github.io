@@ -6,9 +6,9 @@
 
 # Research Experience
 
-- Completed a 6-week summer research project in algebraic combinatorics, supervised by Dr Thomas Coleman.
-  * Accepted to present at the British Conference of Undergraduate Research 2026.
-  * Presented at the Laidlaw Scholars Conference 2025, awarded *highly commended* by a Commissioning Editor at Taylor and Francis Group.
+- Completed a 6-week summer research project in algebraic combinatorics during summer 2025, supervised by Dr Thomas Coleman.
+  * Accepted to present my research at the British Conference of Undergraduate Research 2026.
+  * Presented my research at the Laidlaw Scholars Conference 2025, awarded *highly commended* by a Commissioning Editor at Taylor and Francis Group.
 
 # Awards
 
