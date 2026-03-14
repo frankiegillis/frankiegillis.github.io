@@ -18,3 +18,8 @@
 * *Laidlaw Leadership and Research scholarship:* Awarded to complete a 6-week summer research project in Mathematics and a 6-week summer outreach project in Boston, Massachusetts.
 
 # Software
+
+- Digraphs package for GAP for computing with directed graphs. Contributed to the following functions:
+    * IsCograph for cograph recognition
+    * DigraphMaximumFlow
+    * Is2EdgeTransitive
