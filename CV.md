@@ -4,6 +4,12 @@
 - University of St Andrews - BSc (Hons) Mathematics (2024-2027)
   * Current honours GPA: 19.95 / 20
 
+# Research Experience
+
+- Completed a 6-week summer research project in algebraic combinatorics, supervised by Dr Thomas Coleman. Researched partial graph automorphisms, and their application to studying pseudo-similar vertices in graphs and digraphs.
+  * Accepted to present at the British Conference of Undergraduate Research 2026.
+  * Presented at the Laidlaw Scholars Conference 2025, awarded *highly commended* by a Commissioning Editor at Taylor and Francis Group.
+
 # Awards
 
 * *Harry Edwards scholarship:* Awarded to complete an 8-week summer research internship in Mathematics.
