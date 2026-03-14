@@ -20,6 +20,6 @@
 # Software
 
 - Digraphs package for GAP for computing with directed graphs. Contributed to the following functions:
-    * IsCograph for cograph recognition
-    * DigraphMaximumFlow
-    * Is2EdgeTransitive
+    * *IsCograph:* decides if a given symmetric digraph is a cograph.
+    * *DigraphMinimumCut* and *DigraphMinimumCutSet:* finds the minimum cut and corresponding minimum cut set of a flow network.
+    * *Is2EdgeTransitive:* decides if a given digraph is 2-edge transitive.
