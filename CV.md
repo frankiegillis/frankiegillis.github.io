@@ -26,4 +26,4 @@
 
 # Talks
 
-- *'Combinatorial Nullstellensatz'* - undergraduate Mathematics retreat. Gave a talk on Combinatorial Nullstellensatz, including a proof of the Cauchy-Davenport theorem and a solution to an International Mathematical Olympiad problem.
+- *'Combinatorial Nullstellensatz'* - undergraduate Mathematics retreat. Gave a talk on Combinatorial Nullstellensatz, including a proof of the Cauchy-Davenport theorem and a solution to an International Mathematical Olympiad problem ([click for slides](pdfs/CombNullBurnTalk.pdf)).
