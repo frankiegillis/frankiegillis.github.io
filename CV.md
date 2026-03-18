@@ -23,3 +23,7 @@
     * *IsCograph:* decides if a given symmetric digraph is a cograph.
     * *DigraphMinimumCut* and *DigraphMinimumCutSet:* finds the minimum cut and corresponding minimum cut set of a flow network.
     * *Is2EdgeTransitive:* decides if a given digraph is 2-edge transitive.
+
+# Talks
+
+- *'Combinatorial Nullstellensatz'* - undergraduate Mathematics retreat. Gave a talk on Combinatorial Nullstellensatz, including a proof of the Cauchy-Davenport theorem and a solution to an International Mathematical Olympiad problem.
