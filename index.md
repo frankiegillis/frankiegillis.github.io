@@ -1,4 +1,4 @@
-# Home
+## Home
 
 This is the homepage of Frankie Gillis. I'm a Mathematics undergraduate and Laidlaw Scholar at the University of St Andrews.
 
