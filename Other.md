@@ -1,6 +1,6 @@
 ## Other
 
-I'm currently trying to learn C++, by computing the largest Bell number I can. This is computationally difficult since the sequence of Bell numbers grows faster than
+I'm currently trying to learn C++, by computing the largest Bell number I can ([OEIS Sequence A000110](https://oeis.org/A000110)). This is computationally difficult since the sequence of Bell numbers grows faster than
 any exponential sequence. My current record is $B(2000)$, which takes nearly two kilobytes of memory just to store. Here it is:
 
 1241762346365634187038475186481774689894521197314034932080003268736843588
