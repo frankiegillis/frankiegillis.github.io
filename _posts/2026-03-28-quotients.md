@@ -2,9 +2,9 @@
 
 I've known since before starting my undergraduate degree that it's possible to make the circle $S^1$ by 'gluing together' the endpoints of the closed unit interval $[0,1]$. I had even seen more elaborate constructions of this kind, like identifying the sides of the unit rectanlge $[0, 1]^2$ in various ways in order to produce a torus, Klein bottle, 
 or real projective plane, from watching Tadashi Tokieda's fanstastic [online lectures](https://www.youtube.com/watch?v=SXHHvoaSctc&list=PLTBqohhFNBE_09L0i-lf3fYXF5woAbrzJ)
-on topology and geometry. I knew that the resulting space was called a 'quotient,' but didn't know why.
+on topology and geometry. I knew that the resulting space was called a 'quotient', but didn't know why.
 
-I also knew there was such a thing called a topological space, which consisted of a set $X$ and a collection $\mathcal{T}$ of subsets of $X$, which were called 'open,'
+I also knew there was such a thing called a topological space, which consisted of a set $X$ and a collection $\mathcal{T}$ of subsets of $X$, which were called 'open',
 and somehow this was the same notion of 'open' as in open intervals in $\mathbb{R}$. I also remember solving the following problem: show that, if the cofinite topology on $X$ has at least three clopen sets, then $X$ is a finite set. I had no idea what this had to do with the Klein bottle.
 
 I'm now at the point where I have gotten far enough through my undergraduate topology course that I can prove the things stated in the first paragraph, from the ground up. This made me sufficiently happy that I wrote this post. I will prove the following result, from my Topology course at the University of St Andrews:
