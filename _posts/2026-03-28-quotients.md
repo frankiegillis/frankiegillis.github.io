@@ -1,7 +1,7 @@
 ## The universal property of quotients
 
-I've known since before starting my undergraduate degree that it's possible to make the circle $S^1$ by 'gluing together' the endpoints of the closed unit interval $[0,1]$. I had even seen more elaborate constructions of this kind, like identifying the sides of the unit rectanlge $[0, 1]^2$ in various ways in order to produce a torus, Klein bottle, 
-or real projective plane, from watching Tadashi Tokieda's fanstastic [online lectures](https://www.youtube.com/watch?v=SXHHvoaSctc&list=PLTBqohhFNBE_09L0i-lf3fYXF5woAbrzJ)
+I've known since before starting my undergraduate degree that it's possible to make the circle $S^1$ by 'gluing together' the endpoints of the closed unit interval $[0,1]$. I had even seen more elaborate constructions of this kind, like identifying the sides of the unit rectangle $[0, 1]^2$ in various ways in order to produce a torus, Klein bottle, 
+or real projective plane, from watching Tadashi Tokieda's fantastic [online lectures](https://www.youtube.com/watch?v=SXHHvoaSctc&list=PLTBqohhFNBE_09L0i-lf3fYXF5woAbrzJ)
 on topology and geometry. I knew that the resulting space was called a 'quotient', but didn't know why.
 
 I also knew there was such a thing called a topological space, which consisted of a set $X$ and a collection $\mathcal{T}$ of subsets of $X$, which were called 'open',
