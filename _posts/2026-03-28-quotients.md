@@ -34,7 +34,7 @@ The second piece of technology that I will use is the *universal property* of qu
 
 **Proposition 2.** Let $X$ be a topological space, and let $X / {\sim}$ be a quotient of $X$, with quotient map $p$. Let $Y$ be a topological space, and let $f \colon X \to Y$
                  be a continuous function which is constant on fibers, i.e., if $x$, $y \in X$ have the same image under the quotient map $p$, then $x$ and $y$ also have the
-                 same image under $f$. Then, there exists a unique continuous map $p_{\sharp}$ which makes the following diagram commute:
+                 same image under $f$. Then, there exists a unique continuous map $\hat{p}$ which makes the following diagram commute:
 
 <br>
 <div style="text-align: center"><img src="/images/quotients1.png" alt="Commutative diagram" width="50%"/></div>
