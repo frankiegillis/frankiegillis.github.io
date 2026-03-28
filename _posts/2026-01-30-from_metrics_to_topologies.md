@@ -1,4 +1,4 @@
-## From Metrics to Topologies
+## From metrics to topologies
 
 The purpose of this post is to provide a dictionary translating between metrics and distance, and topology and open sets. I've written up proofs of two results I see as important, largely as a revision exercise for my upcoming course in topology. The first lets us go between viewing continuity analytically in terms of metrics, and topologically in terms of open sets.
 
