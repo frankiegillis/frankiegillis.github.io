@@ -28,3 +28,8 @@
 
 - *Combinatorial Nullstellensatz:*  Gave a talk at an undergraduate Mathematics retreat on Combinatorial Nullstellensatz,
     including a proof of the Cauchy-Davenport theorem and a solution to an International Mathematical Olympiad problem ([click for slides](pdfs/CombNullBurnTalk.pdf)).
+
+# Teaching
+
+* This summer, I will be acting as an instructor with the Timothy Smith Network for their Boston Design Academy programme. I will be teaching HTML, CSS and web design principles
+  to high school-aged students in the Boston area.
