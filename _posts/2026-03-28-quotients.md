@@ -11,7 +11,7 @@ I'm now at the point where I have gotten far enough through my undergraduate top
 
 **Theorem 1.** Let $X = [0, 1]$ be the closed unit interval with the subspace topology from $\mathcal{R}$, and let $\sim$ be the equivalence relation which identifies the points $0$ and
                $1$. Then
-               $$ X \ {\sim} \cong S^1$$
+               $$ X / {\sim} \cong S^1$$
                where $S^1$ denotes the unit circle. Specifically,
                $$S^1 = \set{ (\cos( \theta), \sin (\theta)) \mid \theta \in [0, 2 \pi)}.$$
 
@@ -32,7 +32,7 @@ We will need the following technical result.
 
 The second piece of technology that I will use is the *universal property* of quotients.
 
-**Proposition 2.** Let $X$ be a topological space, and let $X \ {\sim}$ be a quotient of $X$, with quotient map $p$. Let $Y$ be a topological space, and let $f \colon X \to Y$
+**Proposition 2.** Let $X$ be a topological space, and let $X / {\sim}$ be a quotient of $X$, with quotient map $p$. Let $Y$ be a topological space, and let $f \colon X \to Y$
                  be a continuous function which is constant on fibers, i.e., if $x$, $y \in X$ have the same image under the quotient map $p$, then $x$ and $y$ also have the
                  same image under $f$. Then, there exists a unique continuous map $p_{\sharp}$ which makes the following diagram commute:
 
@@ -43,7 +43,7 @@ The second piece of technology that I will use is the *universal property* of qu
 The idea behind this is that, given any point $x \in X$, since $f$ is constant on fibers, it only matters where the equivalence class $[x]$ under $\sim$ is sent by $f$, so $f$
 'factors' through the quotient space. But I won't give a detailed proof of this here.
 
-Now we can return to our original three spaces, $X$, $X \ {\sim}$, and $S^1$. The quotient map $p \colon X \to X \ {\sim}$ takes the form
+Now we can return to our original three spaces, $X$, $X / {\sim}$, and $S^1$. The quotient map $p \colon X \to X / {\sim}$ takes the form
 
 $$p(x) = \set{x} \; \; \text{if} \; \; x \in (0, 1) \; \; \text{and} \; \; p(0) = p(1) = \set{0, 1}.$$
 
@@ -62,11 +62,11 @@ commute:
 
 Now, the following is true about this picture:
 
-* By the Heine-Borel theorem, $X = [0, 1]$ is compact, so the quotient $X \{\sim}$ is also compact, being the continuous image of compact space.
+* By the Heine-Borel theorem, $X = [0, 1]$ is compact, so the quotient $X / {\sim}$ is also compact, being the continuous image of compact space.
 * $S^1$ is Hausdorff.
-* $\hat{p}$ is a bijection, since every value of $\theta$ corresponding to a point on $S^1$ matches up to a unique fiber in $X \ {\sim}$.
+* $\hat{p}$ is a bijection, since every value of $\theta$ corresponding to a point on $S^1$ matches up to a unique fiber in $X / {\sim}$.
 
 Hence, $\hat{p}$ is a continuous bijection from a compact space to a Hausdorff space, so $\hat{p}$ is a homeomorphism, by **proposition 2**. This shows that
-$X \ {\sim} \cong S^1$, which establishes **theorem 1**.
+$X / {\sim} \cong S^1$, which establishes **theorem 1**.
 
 This is the same argument used for more elaborate quotients, such as the torus, mentioned in the beginning.
