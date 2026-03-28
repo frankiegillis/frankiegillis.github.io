@@ -48,7 +48,7 @@ Now we can return to our original three spaces, $X$, $X / {\sim}$, and $S^1$. Th
 $$p(x) = \set{x} \; \; \text{if} \; \; x \in (0, 1) \; \; \text{and} \; \; p(0) = p(1) = \set{0, 1}.$$
 
 In particular, the fibers are $\set{x}$ for $x \in (0, 1)$ and $\set{0, 1}$. Let $f \colon X \to S^1$ be the function $x \mapsto (\cos(2 \pi x), \sin (2 \pi x))$. This is certainly
-a continuous map, since both the functions $\cos$ and $\sin$ are continuous. I claim that $f$ is constant on fibers. To check this, I only need to look at the fiber $\{0, 1\}$, since
+a continuous map, since both the functions $\cos$ and $\sin$ are continuous. I claim that $f$ is constant on fibers. To check this, I only need to look at the fiber $\set{0, 1}$, since
 all the others are singletons. Indeed,
 
 $$f(0) = (\cos( 0), \sin (0)) = (1, 0) \; \; \text{and} \; \; f(1) = (\cos( 2 \pi) = \sin(2 \pi)) = (1, 0).$$
