@@ -4,12 +4,12 @@ I've known since before starting my undergraduate degree that it's possible to m
 or real projective plane, from watching Tadashi Tokieda's fanstastic [online lectures](https://www.youtube.com/watch?v=SXHHvoaSctc&list=PLTBqohhFNBE_09L0i-lf3fYXF5woAbrzJ)
 on topology and geometry. I knew that the resulting space was called a 'quotient,' but didn't know why.
 
-I also knew there was such a thing called a topological space, which consisted of a set $X$ and a collection $\mathcal{T}$ of subsets of $X$, which were called 'open',
+I also knew there was such a thing called a topological space, which consisted of a set $X$ and a collection $\mathcal{T}$ of subsets of $X$, which were called 'open,'
 and somehow this was the same notion of 'open' as in open intervals in $\mathbb{R}$. I also remember solving the following problem: show that, if the cofinite topology on $X$ has at least three clopen sets, then $X$ is a finite set. I had no idea what this had to do with the Klein bottle.
 
 I'm now at the point where I have gotten far enough through my undergraduate topology course that I can prove the things stated in the first paragraph, from the ground up. This made me sufficiently happy that I wrote this post. I will prove the following result, from my Topology course at the University of St Andrews:
 
-**Theorem 1.** Let $X = [0, 1]$ be the closed unit interval with the subspace topology from $\mathcal{R}$, and let $\sim$ be the equivalence relation which identifies the points $0$ and
+**Theorem 1.** Let $X = [0, 1]$ be the closed unit interval with the subspace topology from $\mathbb{R}$, and let $\sim$ be the equivalence relation which identifies the points $0$ and
                $1$. Then
                $$ X / {\sim} \cong S^1$$
                where $S^1$ denotes the unit circle. Specifically,
