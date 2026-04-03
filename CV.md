@@ -4,9 +4,6 @@
 - University of St Andrews - BSc (Hons) Mathematics (2024-2027)
   * Current honours GPA: 19.95 / 20
   * Sub-honours GPA: 19.75 / 20
-- Previous education (2017-2024)
-  * A\*A\*A\*A\* in Mathematics, Further Mathematics, Physics and Chemistry A levels
-  * 10 GCSEs, all at grade 9
 
 # Research Experience
 
